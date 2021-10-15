@@ -1,0 +1,95 @@
+html {
+  box-sizing: border-box;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+body {
+  color: white;
+  padding: none;
+  background-color: #010329;
+}
+
+header {
+  text-align: left;
+  border-bottom-style: solid;
+  border-bottom-color: white;
+  border-bottom-width: 5px;
+  
+}
+
+h2 {
+  margin: 0;
+  text-align: left;
+  margin-left: 1rem;
+  font-weight: normal;
+  justify-content: space-around;
+}
+
+nav {
+  display: flex;
+  justify-content: flex-end;
+}
+
+nav button {
+  color: #010329;
+  padding: 2px 1.5rem;
+  margin: 1rem;
+  border-radius: 10px;
+}
+
+a {
+  text-decoration: none;
+}
+
+
+.content-wrap {
+  max-width: 30rem;
+  margin: 0 auto;
+  padding: 2rem;
+}
+
+p {
+  margin-top: 4px;
+  text-align: center;
+}
+.container {
+  border: 1px solid #fff;
+  border-radius: 10px;
+}
+
+.container input {
+  border-radius: 7px;
+  width: 25rem;
+  background-color: rgb(190, 188, 188);
+}
+
+::placeholder {
+  color: #fff;
+}
+
+
+button.btn-danger {
+  color: white;
+  background-color: red;
+  width: 10rem;
+  align-items: center;
+  border-radius: 5px;
+  border-color: 1px solid white;
+  margin-top: 2.5rem;
+  margin-left: 8rem;
+}
+
+.create-account {
+  margin-left: 3.5rem;
+  font-style: normal;
+}
+
+.create-account a{
+  color: red;
+}
+
